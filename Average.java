@@ -6,14 +6,12 @@ public class Average {
 
         Scanner sc = new Scanner(System.in);
 
-        double A = sc.nextDouble();
-        double B = sc.nextDouble();
+        double nota1 = sc.nextDouble();
+        double nota2 = sc.nextDouble();
 
-        double media = ((A * 3.5) + (B * 7.5)) / 11;
+        double media = ((3.5 * nota1) + (7.5 * nota2) / 11);
 
         System.out.printf("MEDIA = %.5f\n", media);
-
         sc.close();
-
     }
 }
